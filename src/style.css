@@ -1,8 +1,12 @@
+* {
+  margin: 0px;
+}
+
 #app {
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  margin-top: 60px;
+  margin: 0px;
   text-align: center;
 }

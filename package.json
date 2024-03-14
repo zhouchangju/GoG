@@ -24,9 +24,7 @@
     "lint:styles": "stylelint ./**/*.{css,scss}",
     "format:scripts": "prettier . --write",
     "format:styles": "stylelint ./**/*.{css,scss} --fix",
-    "format": "npm run format:scripts && npm run format:styles",
-    "prepare": "husky install && husky set .husky/pre-commit 'npx lint-staged' && git add .husky/pre-commit",
-    "uninstall-husky": "npm uninstall husky --no-save && git config --unset core.hooksPath && npx rimraf .husky"
+    "format": "npm run format:scripts && npm run format:styles"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
@@ -54,5 +52,14 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
     "vitest": "^1.2.1"
+  },
+  "dependencies": {
+    "@antv/g2": "^5.1.15",
+    "@antv/g6": "^4.8.24",
+    "@antv/util": "^3.3.7",
+    "@visactor/vchart": "^1.9.3",
+    "echarts": "^5.5.0",
+    "insert-css": "^2.0.0",
+    "xlsx": "^0.18.5"
   }
 }
